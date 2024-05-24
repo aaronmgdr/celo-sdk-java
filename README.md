@@ -1,5 +1,9 @@
 # celo-sdk-java
 
+
+> [!WARNING]  
+> This package uses transaction types which will [fail on CEl2](https://github.com/celo-org/celo-proposals/blob/8260b49b2ec9a87ded6727fec7d9104586eb0752/CIPs/cip-0062.md#deprecation-warning), specifically celo transaction type 0. Recommended not to use. 
+
 ## Introduction
 
 celo-sdk-java, originally adapted from Ethereum web3j, is a Java library for working with the Celo Blockchain and Celo Core Contracts.
